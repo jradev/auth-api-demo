@@ -2,9 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
 } from "react-router-dom";
 import Login from "../container/login";
 

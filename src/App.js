@@ -11,7 +11,7 @@ function App() {
     redirect_uri='http://localhost:3000/redirect'
     clientId="15215379422-3v7tol5m71mmehkj7toc4pt120e61apv.apps.googleusercontent.com"
     onSuccess={credentialResponse => {
-        console.log(credentialResponse);
+        // console.log(credentialResponse);
       }}
       onError={() => {
         console.log('Login Failed');

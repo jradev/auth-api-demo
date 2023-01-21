@@ -1,7 +1,16 @@
-.main {
+.home {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+}
+.space {
+    height: 20px;
+}
+
+.result {
+    background-color: '#1f4662';
+    color: '#fff';
+    font-size: '12px';
 }
